@@ -11,7 +11,13 @@ import java.net.URL;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.conn.scheme.PlainSocketFactory;
+import org.apache.http.conn.scheme.Scheme;
+import org.apache.http.conn.scheme.SchemeRegistry;
+import org.apache.http.conn.ssl.SSLSocketFactory;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager;
+import org.apache.http.params.BasicHttpParams;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -80,9 +86,17 @@ public class Utils {
 		NetResponse ret = new NetResponse(BookAPI.RESPONSE_CODE_ERROR_NET_EXCEPTION, null);
 		
 		BufferedReader reader = null;
-		HttpClient client = new DefaultHttpClient();  
+		HttpClient client = null;
 		HttpResponse response = null;
 		
+		BasicHttpParams httpParams = new BasicHttpParams();
+		SchemeRegistry schemeRegistry = new SchemeRegistry();
+		schemeRegistry.register(new Scheme("http", PlainSocketFactory.getSocketFactory(), 80));
+		schemeRegistry.register(new Scheme("https", SSLSocketFactory.getSocketFactory(), 443));
+		ThreadSafeClientConnManager cm = new ThreadSafeClientConnManager(httpParams, schemeRegistry);
+
+		client = new DefaultHttpClient(cm, httpParams);
+
 		try {
 			response = client.execute(new HttpGet(url));
 			ret.setCode(response.getStatusLine().getStatusCode());
