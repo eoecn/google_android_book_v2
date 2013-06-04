@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+ <com.baidu.mapapi.MapView android:id="@+id/bmapView"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:clickable="true"     
+/>
+
+ 
+  <LinearLayout android:id="@+id/SearchInCity"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff444444">
+    
+    <TextView android:text="在"
+         android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+        
+    </TextView>
+	<EditText
+		android:id="@+id/city"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="北京"
+	/>
+    <TextView android:text="市内找"
+         android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"></TextView>
+	<EditText
+		android:id="@+id/searchkey"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="天安门"
+	/>
+    <Button
+    	android:id="@+id/search"
+    	android:text="开始"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    />
+</LinearLayout>
+  <LinearLayout android:id="@+id/SuggestionSearch"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:background="#ff444444"
+        android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView android:text="关键词"
+        android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"></TextView>
+	<EditText
+		android:id="@+id/suggestionkey"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="天安门"
+	/>
+    <Button
+    	android:id="@+id/suggestionsearch"
+    	android:text="关键词搜索"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/SuggestionList"
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="#ff444444"
+    android:layout_below="@+id/SuggestionSearch"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="74dp" >
+    </ListView>
+</LinearLayout>
+
+    <LinearLayout android:id="@+id/busSearch"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:background="#ff444444"
+        android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView android:text="在"
+         android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+
+	<EditText
+		android:id="@+id/buscity"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="北京" />
+
+    <TextView android:text="市内找"
+         android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" />
+
+	<EditText
+		android:id="@+id/bussearchkey"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="55" />
+
+	<TextView
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	     android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+	    android:text="@string/str_id_bus" />
+
+    <Button
+    	android:id="@+id/busbtn"
+    	android:text="@string/str_id_start"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    />
+    </LinearLayout>
+    
+   
+<LinearLayout android:id="@+id/routeli"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff444444"
+        android:layout_alignParentTop="true"
+     android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+     <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView android:text="在"
+        android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+
+	<EditText
+		android:id="@+id/routecity"
+		
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="杭州" />
+
+    <TextView android:text="市内找"
+        android:textSize="22dp"
+        android:textColor="#ffeeeeee"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" />
+    </LinearLayout>
+<EditText
+	android:id="@+id/start"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="滨江"
+/>
+<EditText
+	android:id="@+id/end"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="西湖"
+/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+    	android:id="@+id/drive"
+    	android:text="驾车搜索"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    />
+    <Button
+    	android:id="@+id/transit"
+    	android:text="公交搜索"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    />
+    <Button
+    	android:id="@+id/walk"
+    	android:text="步行搜索"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    />
+</LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

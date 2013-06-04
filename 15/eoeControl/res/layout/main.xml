@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+       <Button
+        android:id="@+id/custom"
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="自定义控件"
+    	android:layout_gravity="center"
+    />
+    <Button
+        android:id="@+id/fragment"
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="片段"
+    	android:layout_gravity="center"
+    />
+    <Button
+        android:id="@+id/canvas"
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="2D绘制"
+    	android:layout_gravity="center"
+    />
+</LinearLayout>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="@string/about_title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#26a8D7" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp" >
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/about_intro_title"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="@string/about_goals_content" />
+            
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/about_story_title"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="@string/about_story_content" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/about_thanks_title"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                />
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="@string/about_thanks_content" />
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/about_developer_title"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+					android:paddingBottom="5dp"                   	
+                   	android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/kris"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <Button
+                            android:id="@+id/action_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icon_kris" />
+                        <TextView
+                            android:id="@+id/action_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kris"
+                            android:layout_marginTop="3dp"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/river"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <Button
+                            android:id="@+id/action_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icon_river" />
+                        <TextView
+                            android:id="@+id/action_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="River"
+                            android:layout_marginTop="3dp"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                    
+                     <LinearLayout
+                        android:id="@+id/no4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <Button
+                            android:id="@+id/action_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icon_no4" />
+                        <TextView
+                            android:id="@+id/action_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="tyutNo4"
+                            android:layout_marginTop="3dp"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/river"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <Button
+                            android:id="@+id/action_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icon_kou" />
+                        <TextView
+                            android:id="@+id/action_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="realxu"
+                            android:layout_marginTop="3dp"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                    
+                     <LinearLayout
+                        android:id="@+id/ice"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <Button
+                            android:id="@+id/action_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icon_ice" />
+                        <TextView
+                            android:id="@+id/action_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="IceskYsl"
+                            android:layout_marginTop="3dp"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                    
+                   
+                    
+                    <LinearLayout
+                        android:id="@+id/wangxin"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <Button
+                            android:id="@+id/action_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icon_wangxin" />
+                        <TextView
+                            android:id="@+id/action_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="wangxin"
+                            android:layout_marginTop="3dp"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                    
+                     <LinearLayout
+                        android:id="@+id/yu"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <Button
+                            android:id="@+id/action_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/icon_yu" />
+                        <TextView
+                            android:id="@+id/action_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fish(UI)"
+                            android:layout_marginTop="3dp"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                    
+                </LinearLayout>
+            </HorizontalScrollView>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/about_translators_title"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="8dp"
+                />
+            <include 
+                layout="@layout/translators_layout"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/go_on"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="8dp"
+                />  
+                
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/about_contact_title"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="8dp"
+                />  
+              
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="3dp"
+                android:text="@string/contact_web" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="3dp"
+                android:text="@string/contact_email" />
+            
+            
+                
+                
+        </LinearLayout>
+    </ScrollView>
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btn_feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:text="@string/btn_feedback_text"
+            android:background="@drawable/about_btn_bg"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_cancel_text"
+            android:background="@drawable/about_btn_bg"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+   
+
+</LinearLayout>

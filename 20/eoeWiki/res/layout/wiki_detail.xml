@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dip"
+    android:clickable="true"
+    android:id="@+id/wiki_whole_detail">
+	<include android:id="@+id/wiki_detail_title"
+	    layout="@layout/sub_layer_title2"/>
+	<TextView android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text="Android WIKI"
+   		android:singleLine="true"
+   		android:ellipsize="end"
+   		android:gravity="center"
+   		android:id="@+id/tv_second_parent_title"
+   		android:textColor="@color/blue_category"
+   		android:layout_below="@+id/wiki_detail_title"
+   		android:textStyle="bold"
+   		android:textSize="18sp"/>
+	<ScrollView android:id="@+id/sv_wiki_scroll" 
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:fadingEdge="none"
+    	android:layout_below="@+id/tv_second_parent_title"
+    	android:layout_above="@+id/layout_functions"
+    	android:layout_marginTop="3dip">
+		
+	    <WebView android:id="@+id/wiki_detail_content"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:focusableInTouchMode="true"/>
+	    
+	</ScrollView>
+	
+	<RelativeLayout android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:id="@+id/layout_wiki_detail_process"
+    			android:layout_below="@+id/tv_second_parent_title"
+    			android:gravity="center_horizontal">
+	</RelativeLayout>
+	
+	<LinearLayout android:id="@+id/layout_functions"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:orientation="vertical">
+		<View android:layout_width="match_parent"
+	    	android:layout_height="4px"
+	    	android:background="@color/blue_line"/>
+		
+		<LinearLayout android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal">
+	    	
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:gravity="left">
+		        
+		        <ImageButton android:id="@+id/btn_parent_directory"
+		            android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:src="@drawable/ico_parent_directory"
+	    			android:background="@drawable/btn_function_bg"
+	    			android:paddingTop="3dip"
+	    			android:paddingBottom="3dip"
+	    			android:paddingLeft="5dip"
+	    			android:paddingRight="10dip"/>
+		        
+		        <ImageButton android:id="@+id/btn_fullscreen"
+		            android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:src="@drawable/ico_fullscreen"
+	    			android:background="@drawable/btn_function_bg"
+	    			android:paddingTop="3dip"
+	    			android:paddingBottom="3dip"
+	    			android:paddingLeft="10dip"
+	    			android:paddingRight="5dip"/>
+		    </LinearLayout>
+		    
+		    <LinearLayout android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:gravity="right">
+		        
+		        <ImageButton android:id="@+id/btn_favorite" 
+		            android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:src="@drawable/ico_favorite_not"
+	    			android:background="@drawable/btn_function_bg"
+	    			android:paddingTop="3dip"
+	    			android:paddingBottom="3dip"
+	    			android:paddingLeft="5dip"
+	    			android:paddingRight="10dip"/>
+		        
+		        <ImageButton android:id="@+id/btn_share" 
+		            android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:src="@drawable/ico_share"
+	    			android:background="@drawable/btn_function_bg"
+	    			android:paddingTop="3dip"
+	    			android:paddingBottom="3dip"
+	    			android:paddingLeft="10dip"
+	    			android:paddingRight="5dip"/>
+		    </LinearLayout>
+		    
+		</LinearLayout>
+		
+		
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">广告检测者</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">广告检测者</string>
+    <string name="title_activity_result">检测结果</string>
+    <string name="title_activity_set">关于</string>
+    <string name="view_string_scan">开始检测</string>
+    <string name="view_string_set">关于</string>
+</resources>

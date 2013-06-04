@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>
+	<string name="app_name">eoeWiki</string>
+	<string name="button_search">搜索</string>
+	<string name="tip_get_data_error">抱歉，获取数据失败，请重试。</string>
+	<string name="tip_search_key">关键字</string>
+	<string name="tip_loading">拼命为你加载中...</string>
+	<string name="tip_get_category_error">抱歉，获取目录失败，请重试。</string>
+	<string name="tip_get_search_error">抱歉，检索失败，请重试。</string>
+	<string name="tip_get_search_null">抱歉，找不到和查询相匹配的结果</string>
+	<string name="button_try_again">重试</string>
+	<string name="button_toBack">返回</string>
+	<string name="tip_about">关于</string>
+	<string name="tip_recommand">推荐</string>
+	<string name="tip_feedback">反馈</string>
+	<string name="button_recent_update">最近更新</string>
+	
+	<string name="tip_android_title">Android-安卓</string>
+	<string name="tip_search_title">Android-检索</string>
+	<string name="tip_no_category">杯具，没有可以显示的目录！</string>
+	<string name="tip_no_favorite">杯具，好像你还没有收藏有wiki哦！</string>
+	<string name="tip_no_search_result">杯具，好像搜索不到你想要内容。</string>
+	<string name="tip_no_recent_update_result">杯具,暂无最近更新的目录!</string>
+	<string name="title_favorite">收藏夹</string>
+	<string name="title_update_recent">最近更新</string>
+	<string name="title_search_result">搜索-%s</string>
+	<string name="tip_please_enter_search_text">请输入你要搜索的关键字</string>
+	<string name="tip_category_not_finish">你选择的wiki暂时还没有内容，请再给我们一首歌的时间...</string>
+	<string name="tip_exit">再按一次返回键退出程序</string>
+	<string name="tip_cannt_full_screent">抱歉，当前模式下不能全屏哦</string>
+	<string name="tip_cannt_share">抱歉，当前模式下不能分享</string>
+	<string name="tip_cannt_favorite">抱歉，当前模式下不能收藏</string>
+	
+	<!-- recommend text -->
+	<string name="content_recommand">源自开发者，服务开发者~第一款为开发者服务的好软件来啦! 快去体验吧：http://t.cn/zWH5QSv
+		移动开发百科是android开发者必备软件，其依靠eoeAndroid开发社区，将高质量移动开发内容用百科的形势进行组织和展示，以方便大家能更快更好的学习移动开发的相关知识，尽快的成长~	</string>
+	<string name="recomment_chooser_title">推荐给好友</string>
+	<string name="share_chooser_title">分享给好友</string>
+	
+	<!-- about text -->
+	<string name="about_title">关于我们</string>
+	<string name="about_intro_title">[应用简介]</string>
+	<string name="about_story_title">[应用故事]</string>
+	<string name="about_thanks_title">[致谢]</string>
+	<string name="about_developer_title">-- 客户端开发人员 --</string>
+	<string name="about_translators_title">-- wiki翻译人员（持续更新) --</string>
+	<string name="go_on">未完待续...</string>
+	<string name="about_contact_title">[联系我们]</string>
+	<string name="contact_web">网址: www.eoeandroid.com</string>
+	<string name="contact_email">邮箱: eoeandroid@eoemobile.com</string>
+	<string name="btn_feedback_text">我要反馈</string>
+	<string name="btn_cancel_text">关闭</string>
+	<string name="about_goals_content">移动开发百科是一款移动开发知识百科软件，依靠eoe开发者社区，将高质量移动开发内容用百科的形势进行组织和展示，以方便大家能更快更好的学习移动开发的相关知识，尽快的成长。	</string>
+	<string name="about_story_content">eoe的理念是\'让移动开发更简单\',如何让移动开发更简单是我们不断思考和探索的，我们认为有组织、有体系的内容对开发者的学习和成长是最有价值的，于是大家都希望有这么一款应用让我们零碎的时间里学习到最有价值的知识，于是移动开发百科诞生了。</string>
+	<string name="about_thanks_content">移动开发百科是由社区组织策划，社区会员共同参与贡献的移动开发知识大百科，客户端产品由社区eoeAppLabs组开发和维护，谢谢所有人的付出和贡献，有你们，eoe更精彩!</string>
+
+	<string name="screen_back">双击屏幕返回</string>
+    <string name="content_share">这篇文章挺好，推荐给你看看：%1$s | %2$s （来自：移动开发百科）</string>
+    <string name="no_such_article">槽糕，找不到该文章</string>
+    <string name="unknow_error">未知错误！无法加载</string>
+    <string name="favorite_success">收藏成功</string>
+    <string name="favorite_failed">收藏失败</string>
+    <string name="favorite_cancel_success">取消收藏成功</string>
+    <string name="favorite_cancel_failed">取消收藏失败</string>
+    
+	<string name="about_translators1">kris: 和eoer们一起合作，感觉非常的棒</string>
+	<string name="about_translators2">小手冰凉: wiki，让我学到了很多...</string>
+	<string name="about_translators3">beiju: 一直在论坛里索取,能做点事情给大家,很开心</string>
+	<string name="about_translators4">tyutNo4: eoe，my new love！</string>
+	<string name="about_translators5">流风而逝: 参加WIKI翻译我认识一帮和自己差不多的人，一起坚持，一起为了所谓的“梦想”出发</string>
+	<string name="about_translators6">贼寇在何方: 这是一项非常有意义的工作，很高兴能够为android文档汉化尽自己的一份绵薄之力。</string>
+	<string name="about_translators7">Allan Zhang: 参与了，英语提高了，对翻译的部分也理解更深刻了，还有就是很有成就感</string>
+	<string name="about_translators8">zzwzzit: 开发人员看文档还是看英文原版的好，一翻译才知道，以前找的中文文档太坑爹了</string>
+	<string name="about_translators9">ㄎㄋㄢ: 参加这次翻译，让我学到了更多相关内容吧。对以后的工作有很大的帮助</string>
+	<string name="about_translators10">兲烺: 虽然很辛苦，但是看到自己的成果，无比欣慰</string>
+	<string name="about_translators11">Fiestina菲: 希望能帮助自己的同时帮助别人而已。</string>
+	<string name="about_translators12">枫露之茗: 在翻译期间学习到了很多知识以及让我对Android有了更深的了解！</string>
+	<string name="about_translators13">夜子: 简单且真实的一句是，还没翻够，还想继续</string>
+	<string name="about_translators14">futurexiong: 能学到不少东西，也结交了不少朋友，希望以后能抽出更多的时间来支持wiki建设。</string>
+	<string name="about_translators15">liming0604: 一方面加强对专业知识的理解，一方面提高阅读英文文档的能力，非常happy</string>
+	<string name="about_translators16">CuGBabyBeaR: 作为一个野生业余程序猿,我在翻译android文档的过程中学到了很多。果然要成长还是得看文档啊</string>
+	<string name="about_translators17">smilysas: 分享凝聚力量</string>
+	<string name="about_translators18">Monica: 翻译wiki，精彩无限</string>
+	<string name="about_translators19">zjc3909: 学习与进步,不仅仅对自己的外语和技术有所帮助，还认识了很多同行朋友。</string>
+	<string name="about_translators20">jpengfly: 这是一次尝试， 也是挑战。</string>
+	<string name="about_translators21">sunxikai: 感谢亲们为我提供了一个为社区服务的机会，感谢亲们和我相伴，希望能把这些个服务继续义务做下去。</string>
+	<string name="about_translators22">handsomedylan: 参加活动让我觉得十分充实，以前没有静下心来看文档，翻的过程中才发现文档中有很多自己原来不懂不会的内容。大有收获的同时也帮助了别人，何乐而不为之。</string>
+	<string name="about_translators23">Kobe Bryantt: 增进对android的理解，认识全国的童鞋</string>
+	<string name="about_translators24">成电门徒: 翻译的同时，也学到了很多，是很有意义的一件事情</string>
+	<string name="about_translators25">ELite: 通过参加WIKI活动不仅提升了自己，希望自己以后继续努力</string>
+	<string name="about_translators26">jykenan: 参加这次翻译，让我学到了更多相关内容吧。对以后的工作有很大的帮助</string>
+	<string name="about_translators27">gale: 时间有限，希望能把任务分的更细，用更碎片的时间就能完成</string>
+	<string name="about_translators28">♂慶の渢♀: 参加WIKI感受：真诚服务 开放的社区！</string>
+	<string name="about_translators29">玄月冰灵: 学到了很多安卓开发的知识，也锻炼了自己的外语能力。</string>
+	<string name="about_translators30">924106037: 参加WIKI翻译，挺有意义的！</string>
+	<string name="about_translators31">李俊锋: WIKI建设，贡献比获取更快乐。</string>
+	<string name="about_translators32">GloriousOnion: 方便他人，提高自己，一举多得，妙哉妙哉。</string>
+	<string name="about_translators33">fortianwei: 以前参加社区索引的时候就感觉这个工作不错，能够为大家贡献自己的一份力量，能够感受到自己的努力没有白费，这是一件令人愉悦的事情。参加WIKI也是一样，除此之外，还能认识很多志同道合的朋友，能够顺带熟悉下已经有些生疏的英语，能够在翻译的时候偶尔填补一下空缺的知识，这一切都是参加WIKI带来点好处。</string>
+	<string name="about_translators34">fengyiyezi: 不管是英文还是android技术方面，都有提升！最重要的是，感觉自己真做了一件有意义的事情！feel so fucking great</string>
+	<string name="about_translators35">D.Winter: 英语很烂，大家将就看看</string>
+	<string name="about_translators36">無語: 参加wiki,让我学到很多，希望wiki能够一直完善下去！</string>
+	<string name="about_translators37">Albert: 最大的感受是WIKI有些难用，可能自己还不熟练</string>
+	<string name="about_translators38">atearsan: 第一次参加这样活动. 感觉不错. 希望eoe以后继续提供这样的机会.</string>
+	<string name="about_translators39">eoe_hui: 无私的分享 才会使得中国的软件日益强大</string>
+	<string name="about_translators40">beeboo: 提高自己，造福别人</string>
+	<string name="about_translators41">sfshine: 感受:谢谢wiki给我这个学习英语强化Android知识的机会</string>
+	<string name="about_translators42">carl: 分享感动互联</string>
+	<string name="about_translators43">yuanlf: 第一次参加这种翻译活动，能为eoe和广大Androider做一点点贡献，心里美滋滋的，以后还会努力！</string>
+	<string name="about_translators44">tmacbo: 参加eoe社区wiki任务，翻译Google文档让我以一种全新的方式学习android，自己从中获得不少的收获，灰常感谢eoe社区。</string>
+	<string name="about_translators45">xiangrufeifei3: 开放的心态，收获的地方</string>
+</resources>

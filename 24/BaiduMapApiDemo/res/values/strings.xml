@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">百度地图示例</string>
+    <string name="app_name">百度地图示例</string>
+    <string name="str_id_start">开始</string>
+    <string name="str_id_bus">公交车</string>
+    <string name="MYLOC">我的位置</string>
+	<string name="ZHOUBIAN">查找附近</string>
+	<string name="GONGJIAO">公交</string>
+	<string name="CHUXING">路线</string>
+	<string name="GEO">卫星图</string>
+	<string name="OFFLINE">离线</string>
+</resources>

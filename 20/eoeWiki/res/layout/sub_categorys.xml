@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true">
+	<include android:id="@+id/category_title"
+	    layout="@layout/sub_layer_title"/>
+	<ScrollView style="@style/scrollStyle"
+    	android:layout_below="@+id/category_title"
+    	android:layout_marginTop="10dip">
+		<LinearLayout android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+   			android:paddingLeft="15dip"
+   			android:paddingRight="10dip">
+		    <LinearLayout android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:layout_marginTop="5dip"
+    			android:layout_marginBottom="5dip"
+    			android:gravity="center_horizontal">
+		        
+			    <TextView android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:text="Android WIKI"
+		    		android:id="@+id/tv_title"
+		    		android:textColor="@color/black"
+		    		android:textSize="18sp"
+		    		android:singleLine="true"
+		    		android:ellipsize="end"
+		    		android:textStyle="bold"/>
+			    <TextView android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:text="Android WIKI"
+		    		android:id="@+id/tv_description"
+		    		android:textColor="@color/grey_stroke"
+		    		android:textSize="14sp"/>
+		    </LinearLayout>
+		    <LinearLayout android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:layout_marginTop="5dip"
+    			android:id="@+id/layout_category"
+    			android:gravity="center_horizontal"></LinearLayout>
+	    </LinearLayout>
+	</ScrollView>
+</RelativeLayout>

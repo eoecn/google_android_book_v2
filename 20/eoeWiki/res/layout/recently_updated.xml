@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+	<include android:id="@+id/category_title"
+	    layout="@layout/sub_layer_title"/>
+	<!-- <ScrollView style="@style/scrollStyle"
+    	android:layout_below="@+id/category_title"
+    	android:layout_marginTop="10dip">
+		<LinearLayout android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+   			android:paddingLeft="15dip"
+   			android:paddingRight="10dip">
+		    <LinearLayout android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:layout_marginTop="5dip"
+    			android:id="@+id/layout_category"
+    			android:gravity="center_horizontal"></LinearLayout>
+	    </LinearLayout>
+	</ScrollView> -->
+	
+	  <RelativeLayout android:layout_below="@+id/category_title"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginRight="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:layout_marginLeft="15dp">
+		<ListView android:id="@+id/ListView"
+		    style="@style/listStyle"/>
+		<include android:id="@+id/layout_loading"
+		    layout="@layout/loading"
+		    android:visibility="gone"/>
+		<include layout="@layout/no_recent_update_result"
+		    android:id="@+id/layout_no_update_result"
+		    android:visibility="gone"/>
+		<include layout="@layout/loading_error"
+		    android:id="@+id/layout_update_result_error"
+		    android:visibility="gone"/>
+	</RelativeLayout>
+	
+	
+</RelativeLayout>

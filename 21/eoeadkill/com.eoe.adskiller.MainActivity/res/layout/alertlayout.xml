@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alertmes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="广告检测者是由Android爱好者开发的一个检测广告的小应用，开发过程中，eoe社区给了我很多帮助，感谢eoe！"
+        android:singleLine="false"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+</LinearLayout>

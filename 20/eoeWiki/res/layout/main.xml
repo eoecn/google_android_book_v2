@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.eoe.wiki.view.SliderLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deep_grey">
+    <LinearLayout
+        android:id="@+id/animation_layout_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/page1">
+    </LinearLayout>
+
+    <!-- To make LinearLayout clickable to trigger onContentTouchedWhenOpening()  -->
+    <LinearLayout
+        android:id="@+id/animation_layout_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/page2">
+    </LinearLayout>
+    
+    <!-- To make LinearLayout clickable to trigger onContentTouchedWhenOpening()  -->
+    <LinearLayout
+        android:id="@+id/animation_layout_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/page3">
+    </LinearLayout>
+</cn.eoe.wiki.view.SliderLayer>
+

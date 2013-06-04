@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:progress="http://schemas.android.com/apk/res/com.eoe.control"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+      <com.eoe.control.view.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="14dp"
+        android:text="hello"
+        >
+    </com.eoe.control.view.MyTextView>
+    
+    <com.eoe.control.view.progressBar  xmlns:progress="http://schemas.android.com/apk/res/com.eoe.control"
+        android:id="@+id/my_progressBar"
+        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+        progress:text="我是自定义的"  progress:titleSize="30sp">
+    </com.eoe.control.view.progressBar>
+ 
+</LinearLayout>

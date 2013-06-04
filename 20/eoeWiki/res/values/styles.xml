@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>
+	<style name="AppTheme" parent="android:Theme.Light">
+		<item name="android:windowNoTitle">true</item> 
+	</style>
+	<!-- dialog style -->
+	<style name="dialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item><!--Dialog的windowFrame框为无 -->
+		<item name="android:windowIsFloating">true</item><!--是否浮现在activity之上 -->
+		<item name="android:windowIsTranslucent">true</item> <!-- 是否半透明 -->
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:backgroundDimEnabled">false</item>
+	</style>
+	
+	<style name="listStyle">
+    	<item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    	<item name="android:fadingEdge">none</item>
+    	<item name="android:background">@color/deep_grey</item>
+    	<item name="android:fadeScrollbars">true</item>
+    	<item name="android:scrollingCache">false</item>
+    	<item name="android:cacheColorHint">@color/white</item>
+    	<item name="android:dividerHeight">0dip</item>
+    	<item name="android:listSelector">@drawable/none_selector</item>
+	</style>
+	
+	<style name="scrollStyle">
+    	<item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    	<item name="android:fadingEdge">none</item>
+    	<!--<item name="android:scrollbars">none</item>-->
+	</style>
+</resources>

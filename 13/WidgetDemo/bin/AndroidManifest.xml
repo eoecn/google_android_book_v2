@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eoeandroid.widget"
+    android:versionCode="1" 
+    android:versionName="1.0" >
+
+    <uses-sdk android:targetSdkVersion="16" android:minSdkVersion="7"/>
+
+    <application android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <receiver android:name=".DemoWidget" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/provider" />
+        </receiver>
+        <activity android:name=".WidgetConfig">
+            <intent-filter>
+	        	<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+	    	</intent-filter>
+        </activity>
+    </application>
+
+</manifest>

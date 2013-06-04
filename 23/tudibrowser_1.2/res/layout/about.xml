@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<TextView
+android:id="@+id/TextView01"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="软件名称：土地浏览器"
+></TextView>
+<TextView
+android:id="@+id/TextView02"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="软件版本：V 1.2"
+></TextView>   
+<TextView
+android:id="@+id/TextView03"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="完成时间：2012.11.11"
+></TextView>
+<TextView
+android:id="@+id/TextView04"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="服务邮箱：tudillq@126.com"
+></TextView>
+<TextView
+android:id="@+id/TextView05"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="温馨提示：版权所有，侵权必究！"
+></TextView>
+</LinearLayout>

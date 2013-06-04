@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+>
+<FrameLayout     
+    android:background="#ffd7d7d7"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <WebView
+    android:id="@+id/WebView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ></WebView>
+
+
+    <RelativeLayout
+    android:id="@+id/skin01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/skin_title_jingdian"
+    android:orientation="vertical"
+    >
+    <TextView
+    android:id="@+id/title01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="首页"
+    android:textColor="#ff0000ff"
+    android:singleLine="true"
+    android:ellipsize="end"
+    ></TextView>
+    <ProgressBar
+    android:id="@+id/progress_horizontal01"
+    android:layout_width="fill_parent"
+    android:layout_height="5dip"
+    android:layout_below="@id/title01"
+    android:max="100"
+    style="?android:attr/progressBarStyleHorizontal"
+    ></ProgressBar>
+    
+    <FrameLayout
+    android:id="@+id/FrameLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/progress_horizontal01"
+    android:layout_marginTop="5dip"
+    >
+    
+    <LinearLayout
+    android:id="@+id/enter01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="10dip"
+    >
+    <ImageView
+    android:id="@+id/icon"
+    android:layout_width="30dip"
+    android:layout_height="30dip"
+    android:src="@drawable/siyecao"
+    android:layout_weight="1"
+    ></ImageView>
+    <EditText
+    android:id="@+id/enterurl01"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:hint="输入网址"
+    android:editable="false"
+    android:focusable="false"
+    android:singleLine="true"
+    android:ellipsize="end"
+    android:layout_weight="9"
+    ></EditText>
+    
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/enter02"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    >
+    <EditText
+    android:id="@+id/enterurl02"
+    android:layout_width="wrap_content"
+    android:layout_height="50dip"
+    android:hint="输入网址"
+    android:singleLine="true"
+    android:ellipsize="end"
+    android:layout_weight="6"
+    ></EditText>
+    <ImageView
+    android:id="@+id/ImageView01"
+    android:layout_width="50dip"
+    android:layout_height="50dip"
+    android:background="@drawable/front"
+    android:layout_weight="1"
+    ></ImageView>
+    </LinearLayout>
+    
+    </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>
+<GridView
+android:id="@+id/GridView01"
+android:layout_width="fill_parent"
+android:layout_height="50dip"
+android:visibility="gone"
+android:layout_alignParentBottom="true"
+android:background="#ffb7b7b7"
+></GridView>
+</RelativeLayout>

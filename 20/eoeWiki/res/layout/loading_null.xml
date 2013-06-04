@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+	    <TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/tip_get_search_null"
+    		android:textColor="@color/blue_category"
+    		android:textSize="16sp"
+    		android:id="@+id/tv_null_tip"
+    		android:layout_marginLeft="10dip"/>
+	    <Button android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="10dip"
+    		android:text="@string/button_toBack"
+    		android:id="@+id/btn_toBack"
+   			android:paddingLeft="20dip"
+   			android:paddingTop="5dip"
+   			android:paddingBottom="5dip"
+   			android:paddingRight="20dip"
+    		android:background="@drawable/bg_stroke_grey_blue"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#eeeedd"
+    >
+<ImageView
+android:id="@+id/logo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/logo"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="40dip"
+android:layout_marginBottom="100dip"
+></ImageView>
+<ImageView
+android:id="@+id/biaoyu"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/logo"
+android:src="@drawable/biaoyu"
+android:layout_centerHorizontal="true"
+android:layout_marginBottom="100dip"
+></ImageView>   
+<ImageView
+android:id="@+id/frameview"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/biaoyu"
+android:background="@anim/frameview"
+android:layout_centerHorizontal="true"
+android:layout_marginBottom="100dip"
+></ImageView>
+<TextView
+android:id="@+id/copyright"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:text="Copyright © 2012 土地浏览器"
+android:layout_below="@id/frameview"
+android:textColor="#00c957"
+></TextView>
+
+
+</RelativeLayout>

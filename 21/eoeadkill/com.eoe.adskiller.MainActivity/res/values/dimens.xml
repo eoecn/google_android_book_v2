@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_title_height">46.0dip</dimen>
+    <dimen name="custom_list_item_height">60.0dip</dimen>
+    <dimen name="main_more_content_margin_left">30.0dip</dimen>
+    <dimen name="main_more_caption_margin_left">10.0dip</dimen>
+    <dimen name="main_checker_height">294.0dip</dimen>
+    <dimen name="main_checker_pannel_height">230.0dip</dimen>
+    <dimen name="main_checker_pannel_width">249.0dip</dimen>
+    <dimen name="main_checker_circle_width">249.0dip</dimen>
+    <dimen name="main_checker_circle_height">218.0dip</dimen>
+    <dimen name="main_checker_margin_top">10.0dip</dimen>
+    <dimen name="main_checker_margin_bottom">0.0dip</dimen>
+    <dimen name="main_checker_status_margin_top">5.0dip</dimen>
+    <dimen name="main_checker_status_text_size">18.0sp</dimen>
+    <dimen name="main_btn_des_margin_bottom">20.0dip</dimen>
+    <dimen name="authority_body_min_heigth">280.0dip</dimen>
+    <dimen name="authority_bottom_margin">30.0dip</dimen>
+    <dimen name="authority_des_margin_top">10.0dip</dimen>
+    <dimen name="main_circle_padding">0.0dip</dimen>
+    <dimen name="intro_page_width">256.0dip</dimen>
+    <dimen name="intro_page_height">409.0dip</dimen>
+    <dimen name="intro_page_padding_top">10.0dip</dimen>
+    <dimen name="intro_page_padding_bottom">100.0dip</dimen>
+    <dimen name="intro_page_text_size">20.0sp</dimen>
+    <dimen name="intro_rader_margin_top">30.0dip</dimen>
+    <dimen name="intro_image_margin_top">0.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, eoeInfosAssistant</string>
+    <string name="app_name">MobileInfoAssistant</string>
+    <string name="is_root_dir">已经是根目录.</string>
+    <string name="is_file">文件没有子目录.</string>
+</resources>

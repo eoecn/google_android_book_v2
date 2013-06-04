@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+       <Button 
+            android:id="@+id/btn1"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="apache http get"
+       />
+       <Button 
+            android:id="@+id/btn2"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="apache http post"
+       />
+       
+       <Button 
+            android:id="@+id/btn3"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="java http get"
+       />
+      <Button 
+            android:id="@+id/btn4"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="java http post"
+       />
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true">
+	<RelativeLayout android:id="@+id/category_title"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true">
+	    <ImageView android:id="@+id/category_logo"
+	        android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/category_logo"
+    		android:layout_marginLeft="10dip"
+    		android:layout_marginTop="1px"
+    		android:focusable="true"
+    		android:focusableInTouchMode="true"
+    		android:layout_centerVertical="true"/>
+	    
+	    <ImageView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/btn_favorites"
+    		android:layout_marginRight="17dip"
+    		android:layout_alignParentRight="true"
+    		android:layout_alignParentTop="true"
+    		android:clickable="true"
+    		android:id="@+id/iv_favorite"/>
+	</RelativeLayout>
+	<ScrollView style="@style/scrollStyle"
+    	android:layout_below="@+id/category_title"
+    	android:layout_above="@+id/layout_functions"
+    	android:layout_marginTop="2dip">
+		<LinearLayout android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+   			android:paddingLeft="10dip"
+   			android:paddingRight="10dip">
+		    <RelativeLayout android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:padding="10dip">
+		        <Button android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:id="@+id/btn_search"
+	    			android:layout_alignParentRight="true"
+	    			android:background="@drawable/btn_search"
+	    			android:layout_centerVertical="true"/>
+		        
+		        <EditText android:layout_width="match_parent"
+	    			android:layout_height="wrap_content"
+	    			android:layout_toLeftOf="@+id/btn_search"
+	    			android:hint="@string/tip_search_key"
+	    			android:id="@+id/et_search"
+	    			android:singleLine="true"
+	    			android:layout_marginRight="5dip"
+	    			android:background="@drawable/search_border"
+	    			android:layout_centerVertical="true"
+	    			android:imeOptions="actionSearch"/>
+		    </RelativeLayout>
+		    
+	        <Button android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/btn_recent"
+    			android:textColor="@drawable/font_blue_white"
+    			android:gravity="left"
+    			android:text="@string/button_recent_update"
+    			android:textSize="20sp"
+    			android:textStyle="bold"
+    			android:layout_marginTop="5dip"
+    			android:layout_marginBottom="5dip"
+    			android:paddingLeft="10dip"
+    			android:paddingTop="5dip"
+    			android:paddingBottom="5dip"
+    			android:background="@drawable/bg_stroke_grey_blue"/>
+		    <LinearLayout android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:id="@+id/layout_category"
+    			android:layout_marginTop="5dip"
+    			android:gravity="center_horizontal"></LinearLayout>
+	    </LinearLayout>
+	</ScrollView>
+	<LinearLayout android:id="@+id/layout_functions"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:orientation="vertical">
+		<View android:layout_width="match_parent"
+	    	android:layout_height="4px"
+	    	android:background="@color/blue_line"/>
+		<LinearLayout android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="10dip">
+		    <LinearLayout android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:id="@+id/layout_about"
+	    		android:clickable="true"
+	    		android:gravity="center"
+	    		android:background="@drawable/layout_about">
+		        <ImageView android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:src="@drawable/btn_about_x"/>
+		        <TextView android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:text="@string/tip_about"/>
+		        </LinearLayout>
+		    <LinearLayout android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:id="@+id/layout_recommand"
+	    		android:clickable="true"
+	    		android:gravity="center"
+	    		android:background="@drawable/layout_recommand">
+		        <ImageView android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:src="@drawable/btn_recommand_x"/>
+		        <TextView android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:text="@string/tip_recommand"/>
+		        </LinearLayout>
+		    <LinearLayout android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:id="@+id/layout_feedback"
+	    		android:clickable="true"
+	    		android:gravity="center"
+	    		android:background="@drawable/layout_feedback">
+		        <ImageView android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:src="@drawable/btn_feedback_x"/>
+		        <TextView android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:text="@string/tip_feedback"/>
+		        </LinearLayout>
+		    </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

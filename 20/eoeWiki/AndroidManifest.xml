@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.eoe.wiki"
+    android:versionCode="101"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"/>
+       <!--  android:targetSdkVersion="8" /> -->
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:name="WikiApplication"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".activity.SplashActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.MainCategoryActivity"/>
+        <activity android:name=".activity.SubCategoryActivity"/>
+        <activity android:name=".activity.RecommendActivity"/>
+        <activity android:name=".activity.SearchActivity"/>
+        <activity android:name=".activity.SearchResultActivity"/>            
+        <activity android:name=".activity.WikiContentActivity"/>
+		<activity android:name=".activity.RecentlyUpdatedActivity"/>
+        <activity android:name=".activity.FavoriteActivity"/>
+        <provider android:authorities="cn.eoe.wiki.provider" android:name=".db.DatabaseProvider" />
+
+        <activity
+            android:name="com.umeng.fb.ui.SendFeedback"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.umeng.fb.ui.FeedbackConversations" />
+        <activity
+            android:configChanges="keyboard"
+            android:name="com.umeng.fb.ui.FeedbackConversation" />
+		
+        <service
+            android:exported="true"
+            android:name="com.umeng.common.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="50222a485270156f4e000003" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="markets" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+</manifest>

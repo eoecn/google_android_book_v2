@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>
+      <color name="transparent">#00000000</color>
+      <!-- 注意：color.xml的#5000000前两位是透明的效果参数从00->99（透明->不怎么透明），后6位是颜色的设置 -->
+      
+      <color name="white">#fff</color>
+      <color name="black">#000</color>
+      <color name="red">#F00</color>
+      <color name="green">#81bb11</color>
+      <color name="yellow">#ff0</color>
+      <color name="low_grey">#999</color>
+      <color name="deep_grey">#f1f1f1</color>
+      <color name="deep_blue">#2e4176</color>
+      <color name="sky_blue">#09f</color> 
+      
+      <color name="blue_line">#26A8D7</color>
+      <color name="blue_category">#26A8D7</color>
+      <color name="grey_stroke">#c1c1c1</color>
+      
+      <color name="grey_category">#797878</color>
+      <color name="not_finish_color">#cecece</color>
+      
+</resources>
+
+

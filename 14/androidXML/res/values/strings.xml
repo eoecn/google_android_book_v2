@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, xml!</string>
+    <string name="app_name">xml</string>
+    <string name="pull">Pull解析</string>
+    <string name="sax">SAX解析</string>
+    <string name="dom">DOM解析</string>
+</resources>

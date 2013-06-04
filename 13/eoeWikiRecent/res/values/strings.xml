@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">eoeWikiRecent</string>
+    
+    <string name="template_user_agent">"%1$s/%2$s (Linux; Android)"</string>
+    <string name="loading">Loading ...</string>
+    <string name="widget_api_error">Load wiki error</string>
+    <string name="widget_parse_error">Parse wiki error</string>
+    <string name="widget_user">-- %1$s</string>
+</resources>

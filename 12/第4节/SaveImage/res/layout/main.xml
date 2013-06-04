@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:layout_height="wrap_content" android:id="@+id/button1"
+		android:layout_width="wrap_content" android:text="保存图片1"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/button2"
+		android:layout_width="wrap_content" android:text="保存图片2"
+		android:layout_alignParentTop="true" android:layout_toRightOf="@+id/button1"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/button3"
+		android:layout_width="wrap_content" android:text="查询图片1"
+		android:layout_below="@+id/button1" android:layout_alignParentLeft="true"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/button4"
+		android:layout_width="wrap_content" android:text="查询图片2"
+		android:layout_alignBaseline="@+id/button3"
+		android:layout_alignBottom="@+id/button3" android:layout_toRightOf="@+id/button3"></Button>
+	<ImageView android:src="@drawable/icon" android:layout_width="wrap_content"
+		android:id="@+id/imageView1" android:layout_height="wrap_content"
+		android:layout_below="@+id/button3" android:layout_alignParentLeft="true"></ImageView>
+	<ImageView android:src="@drawable/icon" android:layout_width="wrap_content"
+		android:id="@+id/imageView2" android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/imageView1" android:layout_alignLeft="@+id/button4"></ImageView>
+</RelativeLayout>

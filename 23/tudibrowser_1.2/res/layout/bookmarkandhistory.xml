@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+     >
+ <GridView
+ android:id="@+id/GridView01"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:background="#ffb7b7b7"
+ ></GridView>    
+<FrameLayout
+android:id="@+id/FrameLayout01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/GridView01"
+>     
+<RelativeLayout
+android:id="@+id/Cent01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>     
+<ListView
+android:id="@+id/ListView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ececec"
+></ListView>
+<LinearLayout
+android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_alignParentBottom="true"
+>
+<Button
+android:id="@+id/Button01"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="@string/add"
+></Button>
+<Button
+android:id="@+id/Button02"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="@string/back"
+></Button>
+</LinearLayout>    
+</RelativeLayout>
+
+<RelativeLayout
+android:id="@+id/Cent02"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:visibility="gone"
+>
+<ListView
+android:id="@+id/ListView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#c2c2c2"
+>
+</ListView>
+<LinearLayout
+android:id="@+id/LinearLayout02"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_alignParentBottom="true"
+>
+<Button
+android:id="@+id/Button03"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="@string/manager"
+>
+</Button>
+<Button
+android:id="@+id/Button04"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="@string/back"
+>
+</Button>
+</LinearLayout>
+</RelativeLayout>
+
+
+
+</FrameLayout>
+</RelativeLayout>

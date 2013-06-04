@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btn_sendBroadcast">发送广播</string>
+    <string name="app_name">BroadcastReceiver</string>
+    <string name="et_content_hint">请输入广播内容</string>
+
+</resources>
