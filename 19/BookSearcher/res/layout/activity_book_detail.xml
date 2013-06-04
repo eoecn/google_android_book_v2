@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView
+	        android:id="@+id/book_detail_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="12dp"
+	        android:layout_marginBottom="10dp"
+	        android:layout_marginLeft="6dp"
+	        style="@style/HeadlineFontStyle"
+	        />
+        <ImageView 
+	        android:id="@+id/book_detail_cover"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/book_detail_title"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginRight="16dp"
+	        />
+    	<TextView
+	        android:id="@+id/book_detail_author"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/book_detail_title"
+	        android:layout_toRightOf="@id/book_detail_cover"
+	        android:layout_marginBottom="2dp"
+	        style="@style/DefaultFontStyle"
+	        />
+		<TextView
+	        android:id="@+id/book_detail_publisher"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/book_detail_author"
+	        android:layout_alignLeft="@id/book_detail_author"
+	        android:layout_marginBottom="2dp"
+	        style="@style/DefaultFontStyle"
+	        />
+		<TextView
+	        android:id="@+id/book_detail_pubdate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/book_detail_publisher"
+	        android:layout_alignLeft="@id/book_detail_author"
+	        android:layout_marginBottom="2dp"
+	        style="@style/DefaultFontStyle"
+	        />
+		<TextView
+	        android:id="@+id/book_detail_isbn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/book_detail_pubdate"
+	        android:layout_alignLeft="@id/book_detail_author"
+	        android:layout_marginBottom="2dp"
+	        style="@style/DefaultFontStyle"
+	        />
+		<TextView
+	        android:id="@+id/book_detail_summary_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/book_detail_isbn"
+	        android:layout_marginTop="16dp"
+	        android:layout_marginBottom="16dp"
+	        android:gravity="center"
+	        android:text="@string/book_detail_summary_title"
+	        style="@style/HeadlineFontStyle"
+	        />
+		<TextView
+	        android:id="@+id/book_detail_summary"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/book_detail_summary_title"
+	        style="@style/DefaultFontStyle"
+	        />
+        
+    </RelativeLayout>
+    
+</ScrollView>
