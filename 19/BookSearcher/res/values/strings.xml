@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">图书信息查询</string>
+    <string name="communicating">通信中&#8230;</string>
+    
+    <string name="main_manual_title">使用说明</string>
+    <string name="main_manual_content">本应用通过扫描书籍条形码得到该书的详细介绍，包括：书名、作者、出版社、内容介绍等；具体流程如下：\n
+\n
+1. 按下“扫描ISBN”按钮启动第三方应用\"ZXing\"，扫描并获取书籍条形码；\n
+\n
+2. 通过豆瓣书籍API下载该书的详细介绍；\n
+\n
+3. 显示该书的详细介绍。</string>
+    <string name="main_scan">扫描ISBN</string>
+    
+    <string name="error_message_default">错误详情暂无</string>
+    <string name="error_message_net_exception">网络异常</string>
+    <string name="error_message_book_not_found">图书不存在</string>
+    
+    <string name="book_detail_summary_title">内容介绍</string>
+
+</resources>
