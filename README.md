@@ -7,8 +7,6 @@ Google Android开发入门与实战（第二版）
 - 07. 第7章  Intent & Intent Filters & Broadcast receivers
 - 08. 第8章  Service
 - 09. 第9章  Content Providers
-- 10. 第10章  用户界面（User Interface）
-- 11. 第11章  线程&进程
 - 12. 第12章  信息百宝箱——全面数据存储
 - 13. 第13章  Widget
 - 14. 第14章  Android网络通讯基础
