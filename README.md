@@ -4,6 +4,7 @@ Google Android开发入门与实战（第二版）
 ## 文件夹目录
 
 - 04. 第4章  Hello eoe
+- 06. 第6章  HelloWorld
 - 07. 第7章  Intent & Intent Filters & Broadcast receivers
 - 08. 第8章  Service
 - 09. 第9章  Content Providers
