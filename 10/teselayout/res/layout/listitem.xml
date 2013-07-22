@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dip" >
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" />
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/itemImage"
+        android:text="名字"
+        android:textSize="24dip" />
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemTitle"
+        android:layout_toRightOf="@+id/itemImage"
+        android:text="电话：" />
+
+</RelativeLayout>
