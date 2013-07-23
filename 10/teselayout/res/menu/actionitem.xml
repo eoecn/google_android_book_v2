@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionview"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="always"
+        android:title="活动视图"/>
+    <item
+        android:id="@+id/optionitem1"
+        android:icon="@drawable/icon"
+        android:showAsAction="ifRoom|withText"
+        android:title="选项1"/>
+    <item
+        android:id="@+id/optionitem2"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom|withText"
+        android:title="选项2"/>
+    <item
+        android:id="@+id/optionitem3"
+        android:icon="@drawable/icon"
+        android:title="子菜单">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:title="子菜单项1"/>
+            <item
+                android:id="@+id/subitem2"
+                android:title="子菜单项2"/>
+        </menu>
+    </item>
+
+</menu>

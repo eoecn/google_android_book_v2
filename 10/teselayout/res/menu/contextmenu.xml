@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/contextitem1"
+        android:title="上下文菜单子项1">
+    </item>
+    <item
+        android:id="@+id/contextitem2"
+        android:title="上下文菜单子项2">
+    </item>
+    <item
+        android:id="@+id/contextitem3"
+        android:title="上下文菜单子项3">
+    </item>
+
+</menu>
