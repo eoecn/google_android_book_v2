@@ -69,7 +69,7 @@ public class MainActivity extends Activity implements OnClickListener {
     }
     
     /**
-     * 迁移图书籍信息显示界面，并将图书信息传与
+     * 启动图书详细信息显示界面，并将要显示的图书信息通过Intent传给即将启动的BookInfoDetailActivity
      */
     private void startBookInfoDetailActivity(BookInfo bookInfo) {
         if (bookInfo == null) {
